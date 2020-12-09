@@ -18,6 +18,8 @@ ENV NGINX_PORT=${NGINX_PORT}
 
 RUN echo "This is the hello string: $HELLO_STRING."
 
+xxx
+
 COPY . /usr/share/nginx/html
 
 # copy script that just calls printenv
